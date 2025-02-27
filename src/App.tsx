@@ -1,11 +1,15 @@
-import './App.css'
 import * as React from 'react'
+import { Button } from "@/components/ui/button";
 
 function App() {
 
   return (
-    <div>Hello</div>
+    <div>
+      <Button>
+        yello
+      </Button>
+    </div>
   )
 }
 
-export default App
+export default App;
